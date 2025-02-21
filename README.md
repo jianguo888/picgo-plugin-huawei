@@ -126,6 +126,31 @@ MIT License © 坚果派
 
 感谢所有使用和贡献这个项目的开发者。
 
+## 更新日志
+
+### v1.0.3 (2024-02-21)
+- 优化代码结构，提升可维护性
+- 增强错误处理和日志记录
+- 完善配置文件注释和文档
+- 升级 mime 依赖到 3.0.0 版本
+
+## 开发指南
+
+### 环境要求
+- Node.js >= 12.0.0
+- PicGo >= 2.3.0
+
+### 本地开发
+```bash
+# 克隆项目
+git clone https://gitcode.com/nutpi/picgo-plugin-huawei.git
+
+# 安装依赖
+npm install
+
+# 开发模式
+npm run dev
+
 
 
 
