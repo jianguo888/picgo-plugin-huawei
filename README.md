@@ -5,6 +5,8 @@
 ## 简介
 
 
+
+
 这是一个 PicGo 的插件，支持将图片上传到 华为云平台，并作为图床使用。通过此插件，您可以：
 
 - 将图片上传到您的 华为云OBS
@@ -73,7 +75,7 @@
 
 
 
-MIT License
+MIT License@坚果派
 
 ## 坚果派
 
@@ -81,9 +83,16 @@ MIT License
 
 
 
+![image-20250221185919362](https://nutpi-e41b.obs.cn-north-4.myhuaweicloud.com/image-20250221185919362.png)
 
 
 
+nutpi-e41b
 
 
 
+obs.cn-north-4.myhuaweicloud.com
+
+
+
+YYTIRPODKPQUFBGNKLPE
