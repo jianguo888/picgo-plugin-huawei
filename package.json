@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-huawei-nutpi",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "华为云对象存储图床",
   "main": "src/index.js",
   "publishConfig": {
@@ -36,6 +36,6 @@
     "picgo": "^1.4.0"
   },
   "dependencies": {
-    "mime": "^2.5.2"
+    "mime": "^3.0.0"
   }
 }
