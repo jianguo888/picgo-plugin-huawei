@@ -1,31 +1,45 @@
 language: node_js
-node_js: stable
+node_js: 
+  - "14"
+  - "16"
+  - "18"
 
-# Travis-CI Caching
 cache:
   directories:
     - node_modules
   yarn: true
 
-# S: Build Lifecycle
 install:
   - yarn
 
 stages:
-  - name: deploy
+  - test
+  - build
+  - deploy
 
 jobs:
   include:
-    - stage: deploy
+    - stage: test
       script:
-        - npm run build
+        - yarn lint
+        - yarn test
+    
+    - stage: build
+      script:
+        - yarn build
+    
+    - stage: deploy
+      if: tag IS present
+      script:
+        - yarn build
       deploy:
         provider: npm
-        email: ""
+        email: "jianguo@nutpi.net"
         api_key: "${NPM_TOKEN}"
         skip_cleanup: true
         on:
-          branch: master
+          tags: true
+          branch: main
 branches:
   only:
-    - master
+    - main

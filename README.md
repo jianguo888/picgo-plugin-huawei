@@ -141,19 +141,12 @@ MIT License © 坚果派
 - PicGo >= 2.3.0
 
 ### 本地开发
-```bash
-# 克隆项目
+#### 克隆项目
 git clone https://gitcode.com/nutpi/picgo-plugin-huawei.git
 
-# 安装依赖
+#### 安装依赖
 npm install
 
-# 开发模式
+#### 开发模式
 npm run dev
-
-
-
-
-
-
 
